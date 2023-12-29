@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MicroservicePolices/MicroservicePolices.iml" filepath="$PROJECT_DIR$/MicroservicePolices/MicroservicePolices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MicroservicesPolices.iml" filepath="$PROJECT_DIR$/.idea/MicroservicesPolices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicePolices/microservice-config/microservice-config.iml" filepath="$PROJECT_DIR$/MicroservicePolices/microservice-config/microservice-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicePolices/microservice-departmentsNorth/microservice-departmentsNorth.iml" filepath="$PROJECT_DIR$/MicroservicePolices/microservice-departmentsNorth/microservice-departmentsNorth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicePolices/microservice-departmentsSouth/microservice-departmentsSouth.iml" filepath="$PROJECT_DIR$/MicroservicePolices/microservice-departmentsSouth/microservice-departmentsSouth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicePolices/microservice-eureka/microservice-eureka.iml" filepath="$PROJECT_DIR$/MicroservicePolices/microservice-eureka/microservice-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicePolices/microservice-gateway/microservice-gateway.iml" filepath="$PROJECT_DIR$/MicroservicePolices/microservice-gateway/microservice-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicePolices/microservice-policies/microservice-policies.iml" filepath="$PROJECT_DIR$/MicroservicePolices/microservice-policies/microservice-policies.iml" />
+    </modules>
+  </component>
+</project>

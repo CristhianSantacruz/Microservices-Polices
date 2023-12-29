@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/MicroservicePolices/microservice-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroservicePolices/microservice-departmenta/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroservicePolices/microservice-departmentb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroservicePolices/microservice-departmentsNorth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroservicePolices/microservice-departmentsSouth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroservicePolices/microservice-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroservicePolices/microservice-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroservicePolices/microservice-policies/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroservicePolices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroservicePolices/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
