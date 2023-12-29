@@ -21,10 +21,10 @@ public class PoliceEntity {
     private String name;
     private String dni;
     private String age;
-    @Column(name = "id_deparmentA")
-    private Long idDepartmenA;
-    @Column(name = "id_deparmentB")
-    private Long idDepartmenB;
+    @Column(name = "id_deparmentNorth")
+    private Long idDepartmenNorth;
+    @Column(name = "id_deparmentSouth")
+    private Long idDepartmenSouth;
 
 
     @Enumerated(EnumType.STRING)

@@ -37,12 +37,14 @@ public class PoliceService implements IPoliceService {
     }
 
     @Override
-    public List<PoliceEntity> findAllByDepartmentA(Long idDepartmenta) {
-        return policeRepository.findAllByDepartmentA(idDepartmenta);
+    public List<PoliceEntity> findAllByDepartmentNorth(Long idDepartmentNorth) {
+        return policeRepository.findAllByDepartmentNorth(idDepartmentNorth);
     }
 
     @Override
-    public List<PoliceEntity> findAllByDepartmentB(Long idDepartmentb) {
-        return policeRepository.findAllByDepartmentB(idDepartmentb);
+    public List<PoliceEntity> findAllByDepartmentSouth(Long idDepartmentSouth) {
+        return policeRepository.findAllByDepartmentSouth(idDepartmentSouth);
     }
+
+
 }

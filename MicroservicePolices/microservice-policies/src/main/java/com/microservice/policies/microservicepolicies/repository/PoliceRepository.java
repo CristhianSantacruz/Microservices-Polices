@@ -10,9 +10,9 @@ import java.util.List;
 @Repository
 public interface PoliceRepository extends JpaRepository<PoliceEntity,Long> {
 
-    @Query("select p from PoliceEntity p where p.idDepartmenA = ?1")
-    List<PoliceEntity> findAllByDepartmentA(Long idDepartmenta);
+    @Query("select p from PoliceEntity p where p.idDepartmenNorth = ?1")
+    List<PoliceEntity> findAllByDepartmentNorth(Long idDepartmentNorth);
 
-    @Query("select p from PoliceEntity p where p.idDepartmenB = ?1")
-    List<PoliceEntity> findAllByDepartmentB(Long idDepartmentb);
+    @Query("select p from PoliceEntity p where p. = ?1")
+    List<PoliceEntity> findAllByDepartmentSouth(Long idDepartmentb);
 }

@@ -15,7 +15,7 @@ public interface IPoliceService {
 
     void deleteById(Long id);
 
-    List<PoliceEntity> findAllByDepartmentA(Long idDepartmenta);
+    List<PoliceEntity> findAllByDepartmentNorth(Long idDepartmentNorth);
 
-    List<PoliceEntity> findAllByDepartmentB(Long idDepartmentb);
+    List<PoliceEntity> findAllByDepartmentSouth(Long idDepartmentSouth);
 }

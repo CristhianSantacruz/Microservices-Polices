@@ -49,4 +49,10 @@ public class PoliceController {
         policeService.deleteById(id);
         return ResponseEntity.status(HttpStatus.OK).body("Deleted Police");
     }
+
+    @GetMapping("/search-by-depanorth/{idDepartmentNorth}")
+    public ResponseEntity<?> findByIdDepartmentNorth(@PathVariable Long idDepartmentNorth){
+        return ResponseEntity.ok(policeService.findAllByDepartmentNorth(idDepartmentNorth));
+    }
+
 }
