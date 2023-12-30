@@ -49,3 +49,7 @@ zMicroservicePolices/microservice-departmentsNorth/src/main/java/com/microservic
 uMicroservicePolices/microservice-departmentsNorth/src/main/java/com/microservice/departmentsNorth/dtos/PoliceDto.java,7\f\7f35b74cd6b9f3604f7c497c907d188c1a6e5a4f
 Ä
 “MicroservicePolices/microservice-departmentsNorth/src/main/java/com/microservice/departmentsNorth/http/response/PoliceByDeparmentNorthResponse.java,0\0\000b2f8c215fd838d7ffa64c777f983e462135b4
+¶
+…MicroservicePolices/microservice-policies/src/main/java/com/microservice/policies/microservicepolicies/controllers/dto/PoliceDto.java,b\d\bdc8ecb69a3856641b63efd404fb6edebaf43e70
+­
+}MicroservicePolices/microservice-departmentsNorth/src/main/java/com/microservice/departmentsNorth/dto/DepartmentNorthDto.java,6\5\65f457ca2dcae9f3a0886de5a42977fa9f1a971c

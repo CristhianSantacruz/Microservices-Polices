@@ -1,10 +1,12 @@
 package com.microservice.departmentsNorth.service;
 
 import com.microservice.departmentsNorth.client.PoliceClient;
-import com.microservice.departmentsNorth.dtos.PoliceDto;
 import com.microservice.departmentsNorth.http.response.PoliceByDeparmentNorthResponse;
 import com.microservice.departmentsNorth.models.DepartmentNorthEntity;
 import com.microservice.departmentsNorth.repository.DepartmentNorthRepository;
+import com.microservice.policies.microservicepolicies.controllers.dto.PoliceDto;
+import org.apache.coyote.Response;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -24,6 +26,7 @@ public class DepartmentNorthService implements IDepartmentNorthService{
 
     @Override
     public List<DepartmentNorthEntity> findAll() {
+
         return departmentNorthRepository.findAll();
     }
 
@@ -46,19 +49,22 @@ public class DepartmentNorthService implements IDepartmentNorthService{
     public PoliceByDeparmentNorthResponse findPoliceByIdDepartmentNorth(Long idDeparmentNorth) {
 
         Optional<DepartmentNorthEntity> departmentNorthEntity = findById(idDeparmentNorth);
-        if(departmentNorthEntity.isEmpty()){
+        if(departmentNorthEntity.isPresent()){
             List<PoliceDto> policeDtoList = policeClient.findAllPoliceByDepartmentNorth(idDeparmentNorth);
-
-
 
             return PoliceByDeparmentNorthResponse.builder()
                     .name(departmentNorthEntity.get().getName())
-                    .boosInfo(null)
+                    .boosInfo(policeClient.findBoosById(departmentNorthEntity.get().getId_boss()))
                     .policeDtoList(policeDtoList)
                     .build();
         }
-        return null;
+        else{
+            return new PoliceByDeparmentNorthResponse();
+        }
 
+    }
 
+    public PoliceDto  finBossPoliceById(Long id){
+        return policeClient.findBoosById(id);
     }
 }

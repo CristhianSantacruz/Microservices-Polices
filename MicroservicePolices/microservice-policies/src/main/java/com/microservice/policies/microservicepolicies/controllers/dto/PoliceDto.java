@@ -1,4 +1,4 @@
-package com.microservice.departmentsNorth.dtos;
+package com.microservice.policies.microservicepolicies.controllers.dto;
 
 import com.microservice.policies.microservicepolicies.models.EstadoPolice;
 import lombok.*;
@@ -17,6 +17,6 @@ public class PoliceDto {
     private String age;
     private Long idDepartmenNorth;
     private Long idDepartmenSouth;
-    public EstadoPolice statePolice;
+    public  String statePolice;
 
 }

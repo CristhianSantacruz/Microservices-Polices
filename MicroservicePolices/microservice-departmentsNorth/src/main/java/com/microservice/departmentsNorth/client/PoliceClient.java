@@ -1,9 +1,8 @@
 package com.microservice.departmentsNorth.client;
 
 
-import com.microservice.departmentsNorth.dtos.PoliceDto;
+import com.microservice.policies.microservicepolicies.controllers.dto.PoliceDto;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
@@ -17,5 +16,7 @@ public interface  PoliceClient {
 
 
     @GetMapping("/search/{id}")
-    PoliceDto findBossByIdDepartmentNorth(@PathVariable Long id);
+    PoliceDto findBoosById(@PathVariable Long id);
+
+  
 }

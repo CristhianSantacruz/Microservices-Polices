@@ -13,6 +13,6 @@ public interface PoliceRepository extends JpaRepository<PoliceEntity,Long> {
     @Query("select p from PoliceEntity p where p.idDepartmenNorth = ?1")
     List<PoliceEntity> findAllByDepartmentNorth(Long idDepartmentNorth);
 
-    @Query("select p from PoliceEntity p where p. = ?1")
+    @Query("select p from PoliceEntity p where p.idDepartmenSouth = ?1")
     List<PoliceEntity> findAllByDepartmentSouth(Long idDepartmentb);
 }

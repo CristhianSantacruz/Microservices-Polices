@@ -1,6 +1,7 @@
 package com.microservice.departmentsNorth.http.response;
 
-import com.microservice.departmentsNorth.dtos.PoliceDto;
+
+import com.microservice.policies.microservicepolicies.controllers.dto.PoliceDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,6 +16,6 @@ import java.util.List;
 public class PoliceByDeparmentNorthResponse {
 
     private String name;
-    private String boosInfo;
+    private PoliceDto boosInfo;
     private List<PoliceDto> policeDtoList;
 }

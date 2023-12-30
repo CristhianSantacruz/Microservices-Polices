@@ -1,5 +1,6 @@
 package com.microservice.policies.microservicepolicies.service;
 
+import com.microservice.policies.microservicepolicies.controllers.dto.PoliceDto;
 import com.microservice.policies.microservicepolicies.models.PoliceEntity;
 
 import java.util.List;
