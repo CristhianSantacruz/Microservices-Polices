@@ -7,9 +7,9 @@ spring:
     import: optional:configserver:http://localhost:8888
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/policeDb
+    url: ${DB_URL}
     username: root
-    password: oH#Yz9LZeukhXMWFZ9fqE6Bokh^khJCqL^Vki
+    password: ${DB_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
