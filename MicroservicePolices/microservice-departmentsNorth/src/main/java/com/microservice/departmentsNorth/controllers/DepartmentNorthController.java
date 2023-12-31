@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/depanorth/")
+@RequestMapping("/api/depanorth")
 public class DepartmentNorthController {
     
     private final DepartmentNorthService departmentNorthService;
@@ -61,10 +61,10 @@ public class DepartmentNorthController {
 
         Optional<DepartmentNorthEntity> depaNorth = departmentNorthService.findById(id);
         if(depaNorth.isEmpty()){
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Depa not found");
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Department not found");
         }
         departmentNorthService.deleteById(id);
-        return ResponseEntity.status(HttpStatus.OK).body("Deleted depa");
+        return ResponseEntity.status(HttpStatus.OK).body("Deleted department");
     }
     @GetMapping("/search-police/{idDepartmentNorth}")
     public ResponseEntity<?> findPoliceByIdDepartmentNorth(@PathVariable  Long idDepartmentNorth){

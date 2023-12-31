@@ -1,0 +1,11 @@
+
+7
+java:S1220""Move this file to a named package.8Þ’…ìË1
+£
+java:S1186$"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥Ûíõýÿÿÿÿ8ÿóˆìË1
+ž
+java:S1186)"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö’‡­8€ôˆìË1
+^
+java:S1068"<Remove this unused "deparmentSouthRepository" private field.(ø…ûÿÿÿÿ8Ÿ¨†ìË1
+M
+java:S1068"0Remove this unused "policeClient" private field.(Ì­áÚ8ÿ†ìË1

@@ -1,12 +1,9 @@
 package com.microservice.departmentsNorth.service;
-
 import com.microservice.departmentsNorth.client.PoliceClient;
 import com.microservice.departmentsNorth.http.response.PoliceByDeparmentNorthResponse;
 import com.microservice.departmentsNorth.models.DepartmentNorthEntity;
 import com.microservice.departmentsNorth.repository.DepartmentNorthRepository;
 import com.microservice.policies.microservicepolicies.controllers.dto.PoliceDto;
-import org.apache.coyote.Response;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -89,4 +89,8 @@ public class PoliceController {
         return ResponseEntity.ok(policeService.findAllByDepartmentNorth(idDepartmentNorth));
     }
 
+    @GetMapping("/search-by-depasouth/{idDepartmentSouth}")
+    public ResponseEntity<?> findByIdDepartmentSouth(@PathVariable Long idDepartmentSouth){
+        return ResponseEntity.ok(policeService.findAllByDepartmentSouth(idDepartmentSouth));
+    }
 }

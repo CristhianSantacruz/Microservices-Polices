@@ -1,0 +1,27 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: msvc-gateway
+  config:
+    import: optional:configserver:http://localhost:8888
+  eureka:
+    client:
+      register-with-eureka: false
+  cloud:
+    gateway:
+      mvc:
+        routes:
+            - id: polices
+              uri: http://localhost:8090
+              predicates:
+                - Path=/api/police/**
+            - id: departmentsNorth
+              uri: http://localhost:9080
+              predicates:
+                - Path=/api/depanorth/**
+            - id: departmentsSouth
+              uri: http://localhost:9090
+              predicates:
+                - Path=/api/depasouth/**
+

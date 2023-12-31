@@ -1,0 +1,14 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»º¨ªşÿÿÿÿ8ùàìË1
+H
+java:S1452"&Remove usage of generic wildcard type.(Üõ¶¶ûÿÿÿÿ8ŒùàìË1
+C
+java:S1452+"&Remove usage of generic wildcard type.(º³×©8‘ùàìË1
+C
+java:S1452H"&Remove usage of generic wildcard type.(çì ²8—ùàìË1
+r
+java:S1128"URemove this unused import 'com.microservice.departmentsNorth.dto.DepartmentNorthDto'.(Îû‰Ë8ĞšİíË1
+}
+java:S1128"[Remove this unused import 'com.microservice.departmentsNorth.models.DepartmentNorthEntity'.(ÇÀığüÿÿÿÿ8ĞšİíË1
+
+java:S1128	"_Remove this unused import 'com.microservice.departmentsSouth.services.IDepartmentSouthService'.(ÅîøÛùÿÿÿÿ8ÑšİíË1
